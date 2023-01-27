@@ -6,7 +6,6 @@ import About from "./pages/About";
 import Rooms from "./pages/Rooms";
 import CalorieTracker from "./pages/CalorieTracker";
 import Feeling from "./pages/Feeling";
-import Symptoms from "./pages/Symptoms";
 
 import NotFound from "./pages/NotFound";
 
@@ -22,7 +21,6 @@ function App() {
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/calorie-tracker" element={<CalorieTracker />} />
           <Route path="/feeling" element={<Feeling />} />
-          <Route path="/symptoms" element={<Symptoms />} />
 
           <Route path="/notfound" element={<NotFound />} />
           <Route path="*" element={<Navigate to="/notfound" replace />} />

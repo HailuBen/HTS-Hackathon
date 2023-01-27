@@ -5,7 +5,7 @@ const NavigationBar = () => {
   return (
     <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">Humber Tech Society</Navbar.Brand>
+        <Navbar.Brand href="/">Interactive Symptom Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
