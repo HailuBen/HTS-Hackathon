@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
       <h1>Home</h1>
-      <UncontrolledCarousel />
-      <Cards />
+      {/* <UncontrolledCarousel /> */}
+      {/* <Cards /> */}
       <FormComponent />
     </div>
   );
