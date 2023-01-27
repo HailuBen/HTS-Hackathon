@@ -61,9 +61,16 @@ const FormComponent = () => {
           onChange={(e) => setDropdown(e.target.value)}
         >
           <option value="">Select an option</option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
+          <option value="option1">Cough</option>
+          <option value="option2">Diarrhea</option>
+          <option value="option3">Difficulty swallowing</option>
+          <option value="option4">Abdominal pain</option>
+          <option value="option5">Chest pain</option>
+          <option value="option6">Constipation</option>
+          <option value="option7">Dizziness</option>
+          <option value="option8">Headaches</option>
+          <option value="option9">Shortness of breath</option>
+          <option value="option10">Sore throat</option>
         </select>
       </label>
       <br />
